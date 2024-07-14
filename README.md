@@ -1,18 +1,21 @@
-# focus-app
+# Focus App
+This is a React Native productivity app with features like a Pomodoro clock, to-do lists, app blocking, and usage analytics.
+
 ## Features
-### Pomodoro clock
-  - Pomodoro cycle (focus time, short breat, long break)
-  - Pomodoro UI (font-end)
-  - Premium: Customize (settings to customize pomodoro times)
-  - Pomodoro clock runs on an ongoing project (Planning)
-### Planning 
-  - Create "projects": these are activity categories
-  - To-do lists within a project
-  - Each project is color coded - to be used in analytics to show time spent per project
-  - User can choose/change project color
-  - UI - Projects page with list of projects/add project, delete project and other functionalities
-  - UI - Click on specific project to see ToDo list under the project
-### Analytics
-  - Number of pomodoros per project (collect)
-  - Bar chart: Focus time per day (Stacked to show amount of time per project)
-  - Bar chart: focus time per month
+- Pomodoro Clock
+- To-Do Lists (Projects)
+- App Blocking
+- Usage Analytics
+
+## Getting Started
+Instructions to set up the project locally.
+
+## Tech Stack
+- React Native
+- GraphQL with Apollo
+- PostgreSQL
+- Firebase Authentication
+
+## Directory Structure
+- `src/`: Main source code
+- `tests/`: Test files
